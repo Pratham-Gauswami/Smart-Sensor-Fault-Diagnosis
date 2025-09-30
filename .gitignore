@@ -1,0 +1,28 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Conda environments
+*.conda
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+Neo4j-f1d93865-Created-2025-09-30.txt
