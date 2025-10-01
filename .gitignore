@@ -26,3 +26,6 @@ ENV/
 .DS_Store
 
 Neo4j-f1d93865-Created-2025-09-30.txt
+
+# Ignore parquet files
+*.parquet
