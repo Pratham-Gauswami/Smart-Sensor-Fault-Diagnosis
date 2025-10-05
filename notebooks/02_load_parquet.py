@@ -23,7 +23,7 @@ for col in ["imp23absu_mic", "ism330dhcx_acc", "ism330dhcx_gyro"]:
     
     # Adjust relative path if needed
     if not os.path.isabs(parquet_path):
-        parquet_path = os.path.join("../data", parquet_path)
+        parquet_path = os.path.join("../data/imad/BrushlessMotor/train", parquet_path)
     
     print(f"\nLoading {col} from {parquet_path}...")
     df = pd.read_parquet(parquet_path)
