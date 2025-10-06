@@ -1,0 +1,12 @@
+ModelType,LogFile,Accuracy,Precision,Recall,F1-Score,FullPath
+XGBoost,model_run_xgb_1.txt,1.0,1.0,1.0,1.0,/Users/prathamgauswami/Documents/imec/loghub/model_run_xgb_1.txt
+XGBoost,model_run_xgb_2.txt,1.0,1.0,1.0,1.0,/Users/prathamgauswami/Documents/imec/loghub/model_run_xgb_2.txt
+XGBoost,model_run_xgb_1.txt,1.0,1.0,1.0,1.0,/Users/prathamgauswami/Documents/imec/loghub/model_run_xgb_1.txt
+XGBoost,model_run_xgb_2.txt,1.0,1.0,1.0,1.0,/Users/prathamgauswami/Documents/imec/loghub/model_run_xgb_2.txt
+RandomForest,Rfmodel_run_rf_2.txt,0.9655,0.7381,1.0,0.8493,/Users/prathamgauswami/Documents/imec/loghub/Rfmodel_run_rf_2.txt
+RandomForest,Rfmodel_run_rf_1.txt,0.9655,0.7381,1.0,0.8493,/Users/prathamgauswami/Documents/imec/loghub/Rfmodel_run_rf_1.txt
+LogisticRegression,model_run_1.txt,0.9592,1.0,0.5806,0.7347,/Users/prathamgauswami/Documents/imec/loghub/model_run_1.txt
+LogisticRegression,model_run_2.txt,0.9592,1.0,0.5806,0.7347,/Users/prathamgauswami/Documents/imec/loghub/model_run_2.txt
+LogisticRegression,model_run_3.txt,0.9592,1.0,0.5806,0.7347,/Users/prathamgauswami/Documents/imec/loghub/model_run_3.txt
+LogisticRegression,model_run_4.txt,0.9592,1.0,0.5806,0.7347,/Users/prathamgauswami/Documents/imec/loghub/model_run_4.txt
+LogisticRegression,model_run_log.txt,0.9592,1.0,0.5806,0.7347,/Users/prathamgauswami/Documents/imec/loghub/model_run_log.txt

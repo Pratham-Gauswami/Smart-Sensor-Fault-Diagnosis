@@ -1,0 +1,9 @@
+2025-10-06 13:14:35 | INFO | === Random Forest Evaluation ===
+2025-10-06 13:14:35 | INFO | Accuracy: 0.9655
+2025-10-06 13:14:35 | INFO | Precision: 0.7381
+2025-10-06 13:14:35 | INFO | Recall: 1.0000
+2025-10-06 13:14:35 | INFO | F1-Score: 0.8493
+2025-10-06 13:14:35 | INFO | Confusion Matrix:
+[[277  11]
+ [  0  31]]
+

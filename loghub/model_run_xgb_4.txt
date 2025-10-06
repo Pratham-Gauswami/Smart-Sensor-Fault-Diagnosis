@@ -1,0 +1,9 @@
+2025-10-06 13:49:13 | INFO | === XGBoost Evaluation ===
+2025-10-06 13:49:13 | INFO | Accuracy: 1.0000
+2025-10-06 13:49:13 | INFO | Precision: 1.0000
+2025-10-06 13:49:13 | INFO | Recall: 1.0000
+2025-10-06 13:49:13 | INFO | F1-Score: 1.0000
+2025-10-06 13:49:13 | INFO | Confusion Matrix:
+[[288   0]
+ [  0  31]]
+

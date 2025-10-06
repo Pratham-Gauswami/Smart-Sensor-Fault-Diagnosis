@@ -6,6 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 from pathlib import Path
 from datetime import datetime
+import joblib
 
 # # 1️⃣ Load train and test datasets
 # train_df = pd.read_csv('../data/features_train.csv')
@@ -77,3 +78,8 @@ logging.info(f"F1-Score: {f1_score(y_test, y_pred):.4f}")
 logging.info(f"Confusion Matrix:\n{confusion_matrix(y_test, y_pred)}\n")
 
 print(f"Evaluation logged to {log_filename}")
+
+# 🔚 Save trained model
+models_folder = Path(__file__).parent.parent.parent / 'models'
+models_folder.mkdir(parents=True, exist_ok=True)
+joblib.dump(logreg, models_folder / 'LogisticRegression.pkl')
