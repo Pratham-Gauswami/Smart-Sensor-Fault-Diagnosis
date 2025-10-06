@@ -1,0 +1,9 @@
+2025-10-05 19:58:22 | INFO | === Logistic Regression Evaluation ===
+2025-10-05 19:58:22 | INFO | Accuracy: 0.9592
+2025-10-05 19:58:22 | INFO | Precision: 1.0000
+2025-10-05 19:58:22 | INFO | Recall: 0.5806
+2025-10-05 19:58:22 | INFO | F1-Score: 0.7347
+2025-10-05 19:58:22 | INFO | Confusion Matrix:
+[[288   0]
+ [ 13  18]]
+

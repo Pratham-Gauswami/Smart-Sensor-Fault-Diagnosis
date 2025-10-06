@@ -1,0 +1,34 @@
+04a_feature_extarction_multiDomain.py
+
+🧩 What this script does step by step
+Loads your processed_dataset.pkl
+This is the file from your previous phase that already combines metadata + waveform arrays.
+Normalizes each signal (z-score)
+Ensures amplitude differences don’t distort comparisons.
+Computes statistical features
+Mean
+Standard deviation
+Skewness (asymmetry of waveform)
+Kurtosis (peakedness)
+Max/Min amplitude values
+Computes frequency-domain features
+Peak frequency (FFT index of highest amplitude)
+Total energy in the signal
+Aggregates and saves features
+Each row represents one waveform segment with its extracted features and metadata labels.
+→ Output files are ready for ML modeling or visualization.
+
+Phase4:
+
+| Step                      | Type        | Purpose                              | Output              |
+| ------------------------- | ----------- | ------------------------------------ | ------------------- |
+| **Classifier**            | Predictive  | Learn to detect faults automatically | Accuracy, model     |
+| **PCA/t-SNE**             | Exploratory | Visualize separability of features   | Scatter plot        |
+| **Knowledge Graph / RAG** | Semantic    | Link data patterns to reasoning      | Neo4j + LLM queries |
+
+
+Phase 4A — Visualize Feature Space (PCA & t-SNE)
+📂 Files you’ll need
+Make sure you have these ready from Phase 3:
+train_features.csv (with a label column → 0 = normal, 1 = anomaly)
+test_features.csv (optional — can visualize later too)
